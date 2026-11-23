@@ -1,0 +1,12 @@
+{
+  "name": "task2-student-profile",
+  "version": "1.0.0",
+  "description": "Student profile UI with age calculation using Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

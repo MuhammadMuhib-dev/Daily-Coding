@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Node.js Lab Tasks</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Node.js Lab Assignment</h1>
+        <p>JavaScript Dynamic UI & Student Profile</p>
+    </header>
+
+
+    <!-- ================= TASK 1 ================= -->
+
+    <section class="task">
+
+        <h2>Task 1: Dynamic Content</h2>
+
+        <div class="sections-container">
+
+            <!-- Heading Section -->
+            <div class="content-section heading-section">
+                <h3>Dynamic Heading</h3>
+
+                <div id="headingOutput"></div>
+            </div>
+
+
+            <!-- Paragraph Section -->
+            <div class="content-section paragraph-section">
+                <h3>Dynamic Paragraph</h3>
+
+                <div id="paragraphOutput"></div>
+            </div>
+
+
+            <!-- List Section -->
+            <div class="content-section list-section">
+                <h3>Dynamic List</h3>
+
+                <div id="listOutput"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TASK 2 ================= -->
+
+    <section class="task">
+
+        <h2>Task 2: Student Profile</h2>
+
+        <div class="profile-container">
+
+            <!-- Form -->
+            <div class="student-form">
+
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+
+
+                <label for="rollNumber">Roll Number</label>
+                <input
+                    type="text"
+                    id="rollNumber"
+                    placeholder="Enter roll number"
+                >
+
+
+                <label for="section">Section</label>
+                <input
+                    type="text"
+                    id="section"
+                    placeholder="Enter section"
+                >
+
+
+                <label for="dob">Date of Birth</label>
+                <input
+                    type="date"
+                    id="dob"
+                >
+
+
+                <button onclick="createProfile()">
+                    Create Profile
+                </button>
+
+            </div>
+
+
+            <!-- Profile Card -->
+            <div id="profileCard" class="profile-card">
+
+                <div class="profile-icon">
+                    👨‍🎓
+                </div>
+
+                <h3 id="profileName">
+                    Student Name
+                </h3>
+
+                <p>
+                    <strong>Roll Number:</strong>
+                    <span id="profileRoll">---</span>
+                </p>
+
+                <p>
+                    <strong>Section:</strong>
+                    <span id="profileSection">---</span>
+                </p>
+
+                <p>
+                    <strong>Date of Birth:</strong>
+                    <span id="profileDOB">---</span>
+                </p>
+
+                <p>
+                    <strong>Age:</strong>
+                    <span id="profileAge">---</span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        Node.js Lab Assignment
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

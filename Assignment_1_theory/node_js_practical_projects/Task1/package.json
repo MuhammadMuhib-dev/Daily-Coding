@@ -1,0 +1,12 @@
+{
+  "name": "task1-dynamic-ui",
+  "version": "1.0.0",
+  "description": "Dynamic single-page UI using Node.js, Express, HTML, CSS, and JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
